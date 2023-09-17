@@ -19,4 +19,4 @@ app.get("/fizz-buz-server/run", (req, res) => {
 	res.send(JSON.stringify(answer, null, 2));
 });
 
-app.listen(port, () => console.log(`Server is lintening on port ${port}`));
+app.listen(port, () => console.log(`Server is listening on port ${port}`));
